@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo2.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>Menu lateral sidebar</title>
+</head>
+<body>
+<aside class="sidebar">
+    <form class="sidebar-form">
+        <input type="checkbox" id="open-menu">
+        <label class="material-symbols-outlined open-button" for="open-menu" >double_arrow</label>
+        <label class="material-symbols-outlined" for="open-menu">close</label>
+    </form>
+        <picture class="sidebar-picture">
+            <source class="logo" srcset="logo2.png" media="(max-width:57.5rem)">
+            <img src="logo2.png" alt="logo">
+        </picture>
+        <nav class="sidebar-nav">
+
+            <ul>
+                <li class="sidebar-item">
+                    <span class="material-symbols-outlined" >Notifications</span>
+                    <a href="#">Notifications</a>
+                </li>
+                <li class="sidebar-item">
+                    <span class="material-symbols-outlined" >mark_email_unread</span>
+                    <a href="#">Mensajes</a>
+                </li>
+                <li class="sidebar-item">
+                    <span class="material-symbols-outlined" >shopping_cart</span>
+                    <a href="#">Compras</a>
+                </li>
+                <li class="sidebar-item">
+                    <span class="material-symbols-outlined" >balance</span>
+                    <a href="#">Balance</a>
+                </li>
+                <li class="sidebar-item">
+                    <span class="material-symbols-outlined" >settings</span>
+                    <a href="#">Configutaciòn</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="sidebar-profile ">
+            <ul>
+                <li class="sidebar-item2">
+                    <img id="imagen-frente" class="imagen-frente" src="portada.png" alt="imagen"><br>
+                    <span> Mi perfil</span>
+                </li>
+            </li>
+            <li>
+                <span class="material-symbols-outlined" >logout</span>
+                <a class="cerrar-sesion" id="cerrar-sesion" href="#">Cerrar sesion</a>
+            </li>
+            </ul>
+        </div>
+    
+</aside>
+
+
+</body>
+</html>
