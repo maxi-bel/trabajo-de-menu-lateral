@@ -1,0 +1,5 @@
+nombre= "Soy"
+apellido="dalto"
+
+saludo= "Hola "+ nombre + " " + apellido + ", "+ "¿Còmo estas?"
+print (saludo)
